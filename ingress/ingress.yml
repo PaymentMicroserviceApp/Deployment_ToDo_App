@@ -12,16 +12,16 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: frontend-frontend
+                name: frontend
                 port:
                   number: 8080
-    - host: internal.path.to.argocd.io
+    - host: localhost
       http:
         paths:
-          - path: /
+          - path: /argoscd
             pathType: Prefix
             backend:
               service:
-                name: argocd-server
+                name: argo-cd-argocd-server
                 port:
                   name: http
