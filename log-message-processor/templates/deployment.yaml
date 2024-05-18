@@ -4,6 +4,7 @@ metadata:
   name: {{ include "log-message-processor.fullname" . }}
   labels:
     {{- include "log-message-processor.labels" . | nindent 4 }}
+  namespace: {{ .Values.namespace }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}

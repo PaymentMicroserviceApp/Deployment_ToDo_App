@@ -3,15 +3,15 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
+namespace: frontend
 environmentVariables: [
   {
     name: "TODOS_API_ADDRESS",
-    value: "http://todo-api:8082"
+    value: "http://todo-api.backend:8082"
   },
   {
     name: "AUTH_API_ADDRESS",
-    value: "http://auth-api:8000"
+    value: "http://auth-api.auth:8000"
   }
 ]
 
