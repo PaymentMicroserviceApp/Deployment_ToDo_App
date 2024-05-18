@@ -48,6 +48,7 @@ securityContext: {}
 service:
   type: ClusterIP
   redisPort: 6379
+  port: 6379
 
 ingress:
   enabled: false
