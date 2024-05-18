@@ -31,10 +31,6 @@ spec:
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
-        - name: redis
-          image: "{{ .Values.image.redisImage }}:{{ .Values.image.redisTag }}"
-          ports:
-            - containerPort: {{ .Values.service.redisPort }}
 
         - name: {{ .Chart.Name }}
           securityContext:

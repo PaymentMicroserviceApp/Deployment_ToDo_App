@@ -15,8 +15,6 @@ environmentVariables: [
 
 
 image:
-  redisImage: redis
-  redisTag: "7.0"
   repository: daboca/todos
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
@@ -57,7 +55,6 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 8082
-  redisPort: 6379
 
 ingress:
   enabled: false
