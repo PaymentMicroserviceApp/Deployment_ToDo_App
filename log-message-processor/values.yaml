@@ -7,7 +7,7 @@ replicaCount: 1
 
 
 environmentVariablesLog: [
-    {name: "REDIS_HOST",value: "localhost"},
+    {name: "REDIS_HOST",value: "todo-redis-todo-api"},
     {name: "REDIS_PORT",value: "6379"},
     {name: "REDIS_CHANNEL",value: "log_channel"},
 ]
