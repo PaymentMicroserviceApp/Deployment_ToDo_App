@@ -7,7 +7,7 @@ replicaCount: 1
 environmentVariables: [
   {name: "JWT_SECRET",value: "PRFT"},
   {name: "TODO_API_PORT",value: "8082"},
-  {name: "REDIS_HOST",value: "todo-redis-todo-api"},
+  {name: "REDIS_HOST",value: "redis"},
   {name: "REDIS_PORT",value: "6379"},
   {name: "REDIS_CHANNEL",value: "log_channel"},
 
