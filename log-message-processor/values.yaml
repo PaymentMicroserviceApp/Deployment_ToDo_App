@@ -50,6 +50,7 @@ securityContext: {}
 service:
   type: ClusterIP
   logPort: 8050
+  port: 8050
 
 ingress:
   enabled: false
