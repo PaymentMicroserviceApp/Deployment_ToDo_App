@@ -12,7 +12,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: todo-front-frontend
+                name: frontend-frontend
                 port:
                   number: 8080
     - host: internal.path.to.argocd.io
