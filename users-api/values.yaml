@@ -8,7 +8,7 @@ image:
   repository: daboca/users-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.1.2"
+  tag: "v1.1.3"
 environmentVariables: [
   {name: "JWT_SECRET", value: "PRFT"},
   {name: "SERVER_PORT", value: "8083"}
