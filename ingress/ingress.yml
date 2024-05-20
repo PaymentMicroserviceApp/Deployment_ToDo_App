@@ -24,4 +24,4 @@ spec:
               service:
                 name: argo-cd-argocd-server
                 port:
-                  name: http
+                  name: 80
