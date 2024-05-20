@@ -13,7 +13,7 @@ environmentVariablesLog: [
 image:
   repository: daboca/log-message-processor
   pullPolicy: IfNotPresent
-  tag: "v1.1.1"
+  tag: "v1.1.2"
 
 
 imagePullSecrets: []
