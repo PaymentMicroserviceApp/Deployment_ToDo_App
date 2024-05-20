@@ -12,7 +12,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: todo-front-frontend
+                name: todo-frontend
                 port:
                   number: 8080
     - host: localhost
